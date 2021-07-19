@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third_part2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reynatop" />
+
+    <TextView
+        android:id="@+id/third_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="ABOUT"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/about_body"
+        android:layout_width="339dp"
+        android:layout_height="255dp"
+        android:fontFamily="@font/segoeuil"
+        android:text="Reyna is the first Valorant character to
+be added to the roster since the game’s
+official launch.She’s a vampire whose
+abilities feed off of getting kills
+(assists don’t count!), allowing Reyna
+to heal, gain buffs, and even turn
+invisible.Her playstyle is very feast
+or famine as she only has one ability
+that doesn’t need to use kills to activate
+it.If she isn’t getting kills consistently,
+she won’t be able to contribute much
+to her team compared to other agents.
+However, when she’s rolling, she has
+more momentum than any other agent
+ and can win a round singlehandedly."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_about"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/button_abilities"
+        android:layout_width="261dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="ABILITIES"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_body"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <ImageView
+        android:id="@+id/third_button_back"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/ic_back_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
